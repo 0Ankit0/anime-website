@@ -22,8 +22,11 @@
     --padding-button-1: 1em 2em;
 
     --border-light-1:solid var(--txt-clr-light-3);
-}
 
+}
+a{
+    text-decoration: none;
+}
 /* navbar */
 
 .login-signup button{
@@ -240,6 +243,9 @@ body{
 .cols-span-3{
     grid-column: span 3;
 }
+cols-span-2{
+    grid-column: span 2;
+}
 
 .card-body{
     margin-inline: 2em;
@@ -247,6 +253,16 @@ body{
 }
 .hot-anime{
     background-color: var(--txt-clr-dark);
+    padding: 1em 1em 1em 2em;
+    /* text-align: center; */
+}
+.anime-listing{
+    margin-top: 1em;
+    display: flex;
+    gap: 1em;
+}
+.hot-anime img{
+    width: 100px;
 }
 .top-chart{
     background-color: aliceblue;
@@ -303,8 +319,7 @@ body{
 }
 .anime-episodes{
     display: flex;
-    flex-wrap: wrap;
-    margin-inline: 15rem;
+    margin-left: 2em;
     gap: 1em;
     
 }

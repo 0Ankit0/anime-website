@@ -18,7 +18,7 @@
         <div class="anime-episodes">   
                 
             <div class="anime-episodes-button">
-                <button>ep1</button>
+                <a href="vid-player.php"><button>ep1</button></a>
             </div>
             <div class="anime-episodes-button">
                 <button>ep1</button>
@@ -32,9 +32,9 @@
         </div>
     </div>
     
-    <div class="recent row-span-2">
-        <h1>hello</h1>
-    </div>
+    <?php 
+        require('../include/sidebar.php')
+    ?>
 </div>
 <?php
     require('../include/footer.php')

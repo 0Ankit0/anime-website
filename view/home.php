@@ -167,8 +167,9 @@
                 </a>
             </div>
         </div>
-        <div class="hot-anime row-span-2">
-        </div>
+        <?php
+        require('../include/sidebar.php')
+        ?>
     </section>
    <?php
     require('../include/footer.php');
